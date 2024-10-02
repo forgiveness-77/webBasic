@@ -1,0 +1,81 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    height: 80px ;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+ul li {
+    padding: 20px 45px;
+    
+}
+ul li a{
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    color: black;
+    font-family: 'Sans Serif';
+    text-transform: uppercase;
+
+}
+.intro{
+
+    width: 50%;
+    float: left;
+    font-family:  Arial;
+    width: 30%;
+    height: 60vh;
+    margin: 100px 120px;
+    padding: 50px 70px;
+    font-size: larger;
+}
+.intro p{
+    padding-top: 60px;
+    font-size: large;
+    text-align: left;
+    line-height: 2;
+    word-spacing: 2px;
+    font-family: 'Istok Web';
+}
+h1{
+    font-family: 'Fjalla One';
+    /* text-decoration: underline  #44D1DA ; */
+    border-bottom: #A925E8 solid 5px;
+    padding-bottom:  8px ;
+    padding-left: 2px;  
+}
+button{
+    padding: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 80px;
+    border: none;
+    -webkit-text-stroke-width: 0.6px;
+    font-family: 'Inria Serif';
+    font-size: large;
+    color: white;
+    background-color: #A925E8;
+}
